@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자기소개서</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbit&display=swap" rel="stylesheet">
+
+
+    <style>
+        .archivo-black-regular {
+        font-family: "Archivo Black", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        }
+        .black-han-sans-regular {
+        font-family: "Black Han Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        }
+        .orbit-regular {
+        font-family: "Orbit", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        }
+        .one{
+            width: 1200px;
+            height: 680px;
+            position: relative;
+            background-color : rgb(162, 224, 248);
+        }
+        .text1{
+            font-size : 10em;
+            position: relative;
+            top:-710px;
+            left: 330px;
+            z-index:15;
+        }
+        .box{
+            width: 1200px;
+            height: 150px;
+            z-index: 15;
+            top:-10px;
+            position: relative;
+            background-color : white;
+        }
+        .two12{
+            width: 1030px;
+            height:530px;
+            position: absolute;
+            background-color :white;
+            top:80px;
+            left:80px;
+            border: solid 3px;
+            border-color: rgb(14, 94, 160);
+        }
+        .two22{
+            width: 1030px;
+            height:530px;
+            position: absolute;
+            background-color :white;
+            top: 90px;
+            left:90px;
+            border: solid 3px;
+            border-color: rgb(12, 77, 131);
+        }
+        .two{
+            width: 1120px;
+            height:600px;
+            position: absolute;
+            background-color :white;
+            top:40px;
+            left:40px;
+            border: solid 3px;
+            border-color: rgb(14, 94, 160);
+        }
+        .two2{
+            width: 1120px;
+            height:600px;
+            position: absolute;
+            background-color :white;
+            top:50px;
+            left:50px;
+            border: solid 3px;
+            border-color: rgb(14, 94, 160);
+        }
+        .line{
+            position:relative;
+            width: 1120px;
+            top: -570px;
+            left:40px;
+            border: solid 1.0px;
+            border-color: rgb(14, 94, 160);
+        }
+        .line11{
+            width:1200px;
+            height:1.2px;
+            background:white;
+            box-shadow:
+            0 70px 0 white,
+            0 140px 0 white,
+            0 210px 0 white,
+            0 280px 0 white,
+            0 350px 0 white,
+            0 420px 0 white,
+            0 490px 0 white,
+            0 560px 0 white,
+            0 630px 0 white;
+            position:relative;
+        }
+        .line12{
+            width:1.2px;
+            height:680px;
+            background:white;
+            box-shadow:
+            70px 0 0 white,
+            140px 0 0 white,
+            210px 0 0 white,
+            280px 0 0 white,
+            350px 0 0 white,
+            420px 0 0 white,
+            490px 0 0 white,
+            560px 0 0 white,
+            630px 0 0 white,
+            700px 0 0 white,
+            770px 0 0 white,
+            840px 0 0 white,
+            910px 0 0 white,
+            980px 0 0 white,
+            1050px 0 0 white;
+            position: relative;
+            left:70px;
+        }
+        .circle{
+            position:absolute;
+            z-index: 10;
+            background-color : rgb(241, 160, 185);
+            border-radius : 50%;
+            width:200px;
+            height:200px;
+            top:500px;
+            left:1020px;
+            border: solid 3px;
+            border-color : rgb(14,94,160);
+
+        }
+        .circle-p{
+            position:absolute;
+            z-index: 10;
+            background-color : rgb(255, 172, 199);
+            border-radius : 50%;
+            width:350px;
+            height:350px;
+            top:450px;
+            left:420px;
+            border: solid 3px;
+            border-color : rgb(14,94,160);
+        }
+        .circle-y{
+            position:absolute;
+            z-index: 10;
+            background-color : rgb(255, 254, 175);
+            border-radius : 50%;
+            width:190px;
+            height:140px;
+            top:400px;
+            left:680px;
+            border: solid 3px;
+            border-color : rgb(14,94,160);
+        }
+        .text2{
+            font-size : 2em;
+            position: absolute;
+            top:395px;
+            left: 735px;
+            z-index:15;
+        }
+        .text3{
+            font-size : 2em;
+            position: absolute;
+            top:435px;
+            left: 715px;
+            z-index:15;
+        }
+        .circle2{
+            position:absolute;
+            z-index: 0;
+            background-color : rgb(173, 253, 207);
+            border-radius : 50%;
+            width:200px;
+            height:200px;
+            top:330px;
+            left:1020px;
+            border: solid 3px;
+            border-color : rgb(14,94,160);
+        }
+        .circle3{
+            position:absolute;
+            z-index: 0;
+            background-color : rgb(247, 253, 167);
+            border-radius : 50%;
+            width:200px;
+            height:200px;
+            top:150px;
+            left:1020px;
+            border: solid 3px;
+            border-color : rgb(14,94,160);
+        }
+        .box2{
+            width: 1200px;
+            height: 150px;
+            z-index: 25;
+            top:-5px;
+            position: relative;
+            background-color : white;
+        }
+        .box3{
+            width: 150px;
+            height: 680px;
+            z-index: 25;
+            top:-700px;
+            left:1200px;
+            position: relative;
+            background-color : white;
+        }
+        .line2{
+            position:absolute;
+            width: 40px;
+            z-index:25;
+            top: 550px;
+            left:1100px;
+            border: solid 1.0px;
+            border-color: rgb(14, 94, 160);
+        }
+        .three{
+            position:absolute;
+            top:200px;
+            left:60px;
+
+        }
+        .four{
+            position:absolute;
+            top:200px;
+            left:280px;
+
+        }
+        .five{
+            position:absolute;
+            top:200px;
+            left:500px;
+
+        }
+        .six{
+            position:absolute;
+            top:200px;
+            left:720px;
+
+        }
+        .seven{
+            position:absolute;
+            top:200px;
+            left:940px;
+
+        }
+        .eight{
+            position:absolute;
+            top:45px;
+            left:60px;
+        }
+        .eight2{
+            font-size : 30px;
+            position:absolute;
+            top:30px;
+            left:1100px;
+        }
+        .direct{
+            position:absolute;
+            top: 120px;
+            left: 60px;
+        }
+        .direct2{
+            position:absolute;
+            top: 220px;
+            left: 85px;
+        }
+        .text4{
+            font-size: 6em;
+            position: absolute;
+            top:60px;
+            left: 500px;
+        }
+        .k-a{
+            position:relative;
+            width:230px;
+            height:270px;
+            background-color:aliceblue;
+            top:-390px;
+            left:100px;
+            border: solid 3px;
+            border-color: rgb(14, 94, 160);
+        }
+        .k-ap{
+            position:absolute;
+            width:230px;
+            height:35px;
+            background-color:rgb(253, 163, 182);
+            top:262px;
+            left:100px;
+            border: solid 3px;
+            border-color: rgb(14, 94, 160);
+        }
+        .k-m{
+            position:relative;
+            width:230px;
+            height:270px;
+            background-color:aliceblue;
+            top:-662px;
+            left:350px;
+            border: solid 3px;
+            border-color: rgb(14, 94, 160);
+        }
+        .k-mp{
+            position:absolute;
+            width:230px;
+            height:35px;
+            background-color:rgb(253, 163, 182);
+            top:262px;
+            left:350px;
+            border: solid 3px;
+            border-color: rgb(14, 94, 160);
+        }
+        .k-d{
+            position:relative;
+            width:230px;
+            height:270px;
+            background-color:aliceblue;
+            top:-934px;
+            left:600px;
+            border: solid 3px;
+            border-color: rgb(14, 94, 160);
+        }
+        .k-dp{
+            position:absolute;
+            width:230px;
+            height:35px;
+            background-color:rgb(253, 163, 182);
+            top:262px;
+            left:600px;
+            border: solid 3px;
+            border-color: rgb(14, 94, 160);
+        }
+        .k-n{
+            position:relative;
+            width:230px;
+            height:270px;
+            background-color:aliceblue;
+            top:-1206px;
+            left:850px;
+            border: solid 3px;
+            border-color: rgb(14, 94, 160);
+        }
+        .k-np{
+            position:absolute;
+            width:230px;
+            height:35px;
+            background-color:rgb(253, 163, 182);
+            top:263px;
+            left:850px;
+            border: solid 3px;
+            border-color: rgb(14, 94, 160);
+        }
+        .at1{
+            font-size: 55px;
+            position: absolute;
+            top:260px;
+            left: 170px;
+        }
+        .at2{
+            font-size: 30px;
+            position : absolute;
+            top: 345px;
+            left:125px;
+        }
+        .at3{
+            font-size: 35px;
+            position : absolute;
+            top: 400px;
+            left:145px;
+            text-align : center;
+        }
+        .mt1{
+            font-size: 55px;
+            position: absolute;
+            top:260px;
+            left: 390px;
+        }
+        .mt2{
+            font-size: 30px;
+            position : absolute;
+            top: 345px;
+            left:370px;
+        }
+        .mt3{
+            font-size: 50px;
+            position : absolute;
+            top: 400px;
+            left:400px;
+            text-align : center;
+        }
+        .dt1{
+            font-size: 55px;
+            position: absolute;
+            top:270px;
+            left: 670px;
+        }
+        .dt2{
+            font-size: 30px;
+            position : absolute;
+            top: 345px;
+            left:625px;
+        }
+        .dt3{
+            font-size: 26.5px;
+            position : absolute;
+            top: 390px;
+            left:600px;
+            text-align : center;
+        }
+        .nt1{
+            font-size: 55px;
+            position: absolute;
+            top:270px;
+            left: 915px;
+        }
+        .nt2{
+            font-size: 30px;
+            position : absolute;
+            top: 345px;
+            left:880px;
+        }
+        .nt3{
+            font-size: 50px;
+            position : absolute;
+            top: 390px;
+            left:900px;
+            text-align : center;
+        }
+        .circle-y2{
+            position:absolute;
+            z-index: 10;
+            background-color : rgb(255, 254, 175);
+            border-radius : 50%;
+            width:37px;
+            height:35px;
+            top:250px;
+            left:109px;
+            border: solid 3px;
+            border-color : rgb(14,94,160);
+        }
+        .circle-y3{
+            position:absolute;
+            z-index: 15;
+            background-color : rgb(255, 254, 175);
+            border-radius : 50%;
+            width:10px;
+            height:19px;
+            top:240px;
+            left:122px;
+            border: solid 3px;
+            border-color : rgb(14,94,160);
+        }
+        .circle-y4{
+            position:absolute;
+            z-index: 15;
+            background-color : rgb(255, 254, 175);
+            border-radius : 50%;
+            width:30px;
+            height:19px;
+            top:230px;
+            left:112px;
+            border: solid 3px;
+            border-color : rgb(14,94,160);
+        }
+        .circle-m1{
+            position:absolute;
+            z-index: 10;
+            background-color : rgb(163, 252, 218);
+            border-radius : 50%;
+            width:37px;
+            height:35px;
+            top:250px;
+            left:360px;
+            border: solid 3px;
+            border-color : rgb(14,94,160);
+        }
+        .circle-m2{
+            position:absolute;
+            z-index: 15;
+            background-color : rgb(163, 252, 218);
+            border-radius : 50%;
+            width:10px;
+            height:19px;
+            top:240px;
+            left:373px;
+            border: solid 3px;
+            border-color : rgb(14,94,160);
+        }
+        .circle-m3{
+            position:absolute;
+            z-index: 15;
+            background-color : rgb(163, 252, 218);
+            border-radius : 50%;
+            width:30px;
+            height:19px;
+            top:230px;
+            left:363px;
+            border: solid 3px;
+            border-color : rgb(14,94,160);
+        }
+        .circle-yy1{
+            position:absolute;
+            z-index: 10;
+            background-color : rgb(255, 254, 175);
+            border-radius : 50%;
+            width:37px;
+            height:35px;
+            top:250px;
+            left:610px;
+            border: solid 3px;
+            border-color : rgb(14,94,160);
+        }
+        .circle-yy2{
+            position:absolute;
+            z-index: 15;
+            background-color : rgb(255, 254, 175);
+            border-radius : 50%;
+            width:10px;
+            height:19px;
+            top:240px;
+            left:622px;
+            border: solid 3px;
+            border-color : rgb(14,94,160);
+        }
+        .circle-yy3{
+            position:absolute;
+            z-index: 15;
+            background-color : rgb(255, 254, 175);
+            border-radius : 50%;
+            width:30px;
+            height:19px;
+            top:230px;
+            left:612px;
+            border: solid 3px;
+            border-color : rgb(14,94,160);
+        }
+        .circle-mm1{
+            position:absolute;
+            z-index: 10;
+            background-color : rgb(163, 252, 218);
+            border-radius : 50%;
+            width:37px;
+            height:35px;
+            top:250px;
+            left:860px;
+            border: solid 3px;
+            border-color : rgb(14,94,160);
+        }
+        .circle-mm2{
+            position:absolute;
+            z-index: 15;
+            background-color : rgb(163, 252, 218);
+            border-radius : 50%;
+            width:10px;
+            height:19px;
+            top:240px;
+            left:873px;
+            border: solid 3px;
+            border-color : rgb(14,94,160);
+        }
+        .circle-mm3{
+            position:absolute;
+            z-index: 15;
+            background-color : rgb(163, 252, 218);
+            border-radius : 50%;
+            width:30px;
+            height:19px;
+            top:230px;
+            left:863px;
+            border: solid 3px;
+            border-color : rgb(14,94,160);
+        }
+        .photo1{
+            position:absolute;
+            top:250px;
+            left:150px;
+        }
+        .photo2{
+            position:absolute;
+            top:150px;
+            left:680px;
+        }
+        .photo3{
+            position:absolute;
+            top:130px;
+            left:155px;
+        }
+        .text5{
+            font-size: 5em;
+            position: absolute;
+            top:60px;
+            left: 500px;
+        }
+        .text6{
+            font-size: 67px;
+            position: absolute;
+            top:-5px;
+            left: 495px;
+        }
+        .eye1{
+            position:absolute;
+            z-index: 20;
+            background-color : rgb(14,94,160);
+            border-radius : 50%;
+            width:15px;
+            height:30px;
+            top:500px;
+            left:550px;
+        }
+        .eye2{
+            position:absolute;
+            z-index: 20;
+            background-color : rgb(14,94,160);
+            border-radius : 50%;
+            width:15px;
+            height:30px;
+            top:500px;
+            left:620px;
+        }
+        .mouth1{
+            position:absolute;
+            z-index: 10;
+            background-color : white;
+            border-radius : 50%;
+            width:65px;
+            height:65px;
+            top:500px;
+            left:557px;
+            border: solid 3px;
+            border-color : rgb(14,94,160);
+        }
+        .mouth2{
+            position:absolute;
+            z-index: 15;
+            background-color : rgb(255, 172, 199);
+            width:80px;
+            height:37px;
+            top:500px;
+            left:550px;
+        }
+        .mouth3{
+            position:absolute;
+            z-index:20;
+            width: 65px;
+            top: 537px;
+            left:560px;
+            border: solid 1.5px;
+            border-color: rgb(14, 94, 160);
+        }
+    </style>
+</head>
+<body>
+    <div class="one">
+        <div class="line11"></div>
+        <div class="line12"></div>
+        <p class="text2 archivo-black-regular" style = "color:rgb(12, 77, 131)";>MIRI</p>
+        <p class="text3 archivo-black-regular" style = "color:rgb(12, 77, 131)";>BRAND</p>
+        <div class="circle-p"></div>
+            <div class="eye1"></div>
+            <div class="eye2"></div>
+            <div class="mouth1"></div>
+            <div class="mouth2"></div>
+            <div class="mouth3"></div>
+        <div class="circle-y"></div>
+        <div class="two22"></div>
+            <div class="two12"></div>
+            <div class="box"></div>
+            <h1 class = "text1 black-han-sans-regular" style = "color : rgb(12, 77, 131);">자기소개</h1>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="one">
+        <div class="line11"></div>
+        <div class="line12"></div>
+        <div class="two2"></div>
+            <div class="two"></div>
+            <div class="line"></div>
+            <div class="k-a"></div>
+                <p class="at1 black-han-sans-regular" style="color:rgb(14, 94, 160);">나이</p>
+                <p class="at2" style="color:rgb(14, 94, 160);">......................</p>
+                <p class="at3 orbit-regular" style="color:rgb(14, 94, 160);">2001년생 <br> (26살)</p>
+            <div class="k-ap"></div>
+                <div class="circle-y2"></div>
+                <div class="circle-y3"></div>
+                <div class="circle-y4"></div>
+            <div class="k-m"></div>
+                <h2 class="mt1 archivo-black-regular" style="color:rgb(14, 94, 160);">MBTI</h2>
+                <p class="mt2" style="color:rgb(14, 94, 160);">......................</p>
+                <p class="mt3" style="color:rgb(14, 94, 160);">ENTP</p>
+            <div class="k-mp"></div>
+                <div class="circle-m1"></div>
+                <div class="circle-m2"></div>
+                <div class="circle-m3"></div>
+            <div class="k-d"></div>
+                <h2 class="dt1 black-han-sans-regular" style="color:rgb(14, 94, 160);">학과</h2>
+                <p class="dt2" style="color:rgb(14, 94, 160);">......................</p>
+                <p class="dt3 orbit-regular" style="color:rgb(14, 94, 160);">*경영학과 <br> *통계학과(복수전공) <br>-> R 프로그래밍</p>
+            <div class="k-dp"></div>
+                <div class="circle-yy1"></div>
+                <div class="circle-yy2"></div>
+                <div class="circle-yy3"></div>
+            <div class="k-n"></div>
+                <h2 class="nt1 black-han-sans-regular" style="color:rgb(14, 94, 160);">이름</h2>
+                <p class="nt2" style="color:rgb(14, 94, 160);">......................</p>
+                <p class="nt3 orbit-regular" style="color:rgb(14, 94, 160);">곽소정</p>
+            <div class="k-np"></div>
+                <div class="circle-mm1"></div>
+                <div class="circle-mm2"></div>
+                <div class="circle-mm3"></div>
+            <p font-weight = "bold" class = "eight archivo-black-regular" style="color:rgb(14, 94, 160);">MIRI BRAND</p>
+            <p class = "eight2 archivo-black-regular" style="color:rgb(14, 94, 160);">01</p>
+            <h1 class = "text4 black-han-sans-regular" style = "color : rgb(12, 77, 131);">키워드</h1>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="one">
+        <div class="line11"></div>
+        <div class="line12"></div>
+        <div class="circle"></div>
+        <div class="two2"></div>
+            <div class="two"></div>
+            <div class="circle2"></div>
+            <div class="line"></div>
+            <div class="circle3"></div>
+            <p font-weight = "bold" class = "eight archivo-black-regular" style="color:rgb(14, 94, 160);">MIRI BRAND</p>
+            <p class = "eight2 archivo-black-regular" style="color:rgb(14, 94, 160);">02</p>
+            <h2 class = "direct archivo-black-regular" style = "color :black;">2025.3~2025.9</h2>
+            <div class="three"><img src="image1.jpg" width = 200px height = 250px ></div>
+            <div class="four"><img src="image2.jpg" width = 200px height = 250px ></div>
+            <div class="five"><img src="image3.jpg" width = 200px height = 250px ></div>
+            <div class="six"><img src="image4.jpg" width = 200px height = 250px ></div>
+            <div class="seven"><img src="image5.jpg" width = 200px height = 250px ></div>
+            <div class="box2"></div>
+            <div class="box3"></div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+        <div class="one">
+        <div class="line11"></div>
+        <div class="line12"></div>
+        <div class="circle"></div>
+        <div class="two2"></div>
+            <div class="two"></div>
+            <div class="circle2"></div>
+            <div class="line"></div>
+            <div class="circle3"></div>
+            <p font-weight = "bold" class = "eight archivo-black-regular" style="color:rgb(14, 94, 160);">MIRI BRAND</p>
+            <p class = "eight2 archivo-black-regular" style="color:rgb(14, 94, 160);">03</p>
+            <div class="photo1"><img src="hobby1.PNG" width = 460px height = 300px ></div>
+            <div class="photo2"><img src="hobby2.PNG" width = 260px height = 450px ></div>
+            <h1 class = "text5 black-han-sans-regular" style = "color : rgb(12, 77, 131);">취미</h1>
+            <div class="box2"></div>
+            <div class="box3"></div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="one">
+        <div class="line11"></div>
+        <div class="line12"></div>
+        <div class="two2"></div>
+            <div class="two"></div>
+            <div class="line"></div>
+            <p font-weight = "bold" class = "eight archivo-black-regular" style="color:rgb(14, 94, 160);">MIRI BRAND</p>
+            <p class = "eight2 archivo-black-regular" style="color:rgb(14, 94, 160);">04</p>
+            <div class="photo3"><img src="project1.PNG" width = 900px height = 500px ></div>
+            <h1 class = "text6 black-han-sans-regular" style = "color : rgb(12, 77, 131);">프로젝트</h1>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="one">
+        <div class="line11"></div>
+        <div class="line12"></div>
+        <div class="two2"></div>
+            <div class="two"></div>
+            <div class="line"></div>
+            <p font-weight = "bold" class = "eight archivo-black-regular" style="color:rgb(14, 94, 160);">MIRI BRAND</p>
+            <p class = "eight2 archivo-black-regular" style="color:rgb(14, 94, 160);">05</p>
+            <div class="photo3"><img src="project2.PNG" width = 900px height = 500px ></div>
+            <h1 class = "text6 black-han-sans-regular" style = "color : rgb(12, 77, 131);">프로젝트</h1>
+    </div>
+    </div>
+    </body>
+
+</html>
